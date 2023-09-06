@@ -1,23 +1,30 @@
 package Arrays;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
-public class ArrayListSwap {
+public class ArraySwap {
     public static void main(String[] args) {
-        ArrayList<Integer> list1 = new ArrayList<>(3);
 
-        list1.add(1);
-        list1.add(3);
-        list1.add(2);
-        System.out.println(list1);
+        int[] arr = {1, 3, 2 ,4};
 
-        swap(list1,1,2);
+        System.out.println(Arrays.toString(arr));
+
+        swap(arr, 1, 2);
+
+        System.out.println(Arrays.toString(arr));
+
     }
 
-    static void swap(ArrayList<Integer> arrList, int x, int y){
-        int temp = arrList.get(x);
-        arrList[x] = arrList.get(y);
-
+    static void swap(int[] array, int x, int y){
+        int temp = array[x];
+        array[x] = array[y];
+        array[y] = temp;
     }
 }
+
+/*
+[1, 3, 2, 4]
+[1, 2, 3, 4]
+ */
 

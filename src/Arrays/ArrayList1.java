@@ -35,3 +35,16 @@ public class ArrayList1 {
 
     }
 }
+
+
+/*
+------------ output -----------
+
+original array list : [1, 2, 3, 4, 5, 6]
+removed last element : [1, 2, 3, 4, 5]
+Contains 2 : true
+Contains 10 : false
+Element at index '2' : 3
+ Setting value  '1' ->  '100' : [100, 2, 3, 4, 5]
+
+ */
