@@ -13,3 +13,8 @@ public class PassingFunction {
         arr[1]=2;
     }
 }
+/*
+------------------ output ------------
+[1, 0, 3, 4]
+[1, 2, 3, 4]
+ */
