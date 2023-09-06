@@ -24,3 +24,8 @@ public class MaxValue {
         return max;
     }
 }
+
+/*
+[10, 50, 2, 1, 5, 22, 3, 26]
+Max value : 50
+ */
