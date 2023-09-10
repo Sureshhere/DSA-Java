@@ -4,6 +4,13 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+Step-1 -> Create a HashSet
+Step-2 -> Just loop over input array
+Step-3 -> If set deny to store just return true
+          (Duplicate already exist)
+Step-4 -> If array doesn't contain duplicates return false 
+ */
 public class DuplicatesOptimized {
 
     public static void main(String[] args) {
