@@ -11,7 +11,7 @@ public class ArmstrongNumber {
 
         boolean ans = isArmstrong(num);
         if (ans){
-            System.out.println("It is an Armstrong Number");
+            System.out.println("It is an Armstrong Number.");
         }
         else {
             System.out.println("It is not an Armstrong Number");
