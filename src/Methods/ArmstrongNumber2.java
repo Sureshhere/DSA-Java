@@ -19,7 +19,7 @@ public class ArmstrongNumber2 {
         int original = n,sum=0;
         while (n>0){
             int rem = n % 10;
-            sum = sum + rem*rem*rem;
+            sum += rem*rem*rem;
             n = n/10;
         }
 
