@@ -1,7 +1,6 @@
 package Methods;
 
 import java.util.Scanner;
-// print 3 digit armstrong number
 public class ArmstrongNumber2 {
 
     public static void main(String[] args) {
