@@ -1,5 +1,4 @@
 package Methods;
-
 import java.util.Scanner;
 
 public class ArmstrongNumber {
@@ -19,7 +18,6 @@ public class ArmstrongNumber {
     }
 
     static boolean isArmstrong(int n){
-
         int original = n,sum=0;
         while (n>0){
             int rem = n % 10;
